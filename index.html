@@ -1,28 +1,22 @@
 <html>
     <head>
         <title>
-            Project Console
+            Family Book
         </title>
+
+        <link rel="stylesheet" href="style.css" type="text/css">
+
     </head>
     <body>
-        <h1>
-            Project on Console
-        </h1>
-        <p>Visual Studios is a platform for text-based coding. It is especially useful for JavaScript.</p>
-        <p>You can print things on Console by using "Console.log" in your code.</p>
-        <script>
-            console.log("Hello, I am Manya Jain");
-            console.log("This is my first Console Project on Visual Studios");
-            var first_name="Manya"
-            console.log(first_name);
-            var last_name="Jain"
-            console.log(last_name);
-            var full_name=first_name.concat(last_name);
-            console.log(full_name);
-            var first_number=Math.pow(12,5);
-            console.log(first_number);
-            var second_number=Math.sqrt(100);
-            console.log(second_number);
-        </script>
+        <center style="margin-top: 40px;">
+            <h1>
+                My Family Book
+            </h1>
+
+            <img src="https://i.postimg.cc/MKdhy06Z/family.jpg" id="family_member_image" width="150px" height="200px">
+            <h4 id="family_member_name"></h4>
+            <button onclick="next_image()">Next<button>
+        </center>
+        <script src="main.js"></script>
     </body>
 </html>
