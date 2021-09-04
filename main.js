@@ -1,4 +1,34 @@
-var guest_list_array = [];
-function submit() {
-        guest_list_array.push(guest_list_array);
-}
+canvas - document.getElementById("myCanvas");
+ctx = canvas.getContext("2d");
+
+ctx.beginPath;
+ctx.strokestyle = "red";
+ctx.lineWidth = 1;
+ctx.rect(150, 143, 430, 300);
+ctx.stroke;
+
+ctx.beginPath;
+ctx.strokestyle = "blue";
+ctx.lineWidth = "5";
+ctx.arc(250, 210, 40, 0, 2 * Math.PI);
+ctx.stroke;
+ctx.beginPath;
+ctx.strokestyle = "black";
+ctx.lineWidth = "5";
+ctx.arc(250, 210, 45, 0, 2 * Math.PI);
+ctx.stroke;
+ctx.beginPath;
+ctx.strokestyle = "red";
+ctx.lineWidth = "5";
+ctx.arc(250, 210, 50, 0, 2 * Math.PI);
+ctx.stroke;
+ctx.beginPath;
+ctx.strokestyle = "yellow";
+ctx.lineWidth = "5";
+ctx.arc(250, 210, 43, -5, 2 * Math.PI);
+ctx.stroke;
+ctx.beginPath;
+ctx.strokestyle = "green";
+ctx.lineWidth = "5";
+ctx.arc(250, 210, 47, -5, 2 * Math.PI);
+ctx.stroke;
